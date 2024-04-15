@@ -41,6 +41,19 @@
 
 6) docker run java-core-dz
 
+    6.1) docker login
+
+    6.2) docker tag java-core-dz farid555/java-core-dz
+
+    6.3) docker push farid555/java-core-dz
+
+    6.4) https://hub.docker.com/r/farid555/java-core-dz/tags
+
+    6.5) docker pull farid555/java-core-dz:latest
+
+    6.5.1)  docker run farid555/java-core-dz:latest - проверяем как контейнер работает :)
+
+
 
 7) Копируем содержимые контейнера с док файлами на локальный диск
 
