@@ -56,11 +56,19 @@
 7) Makefile.mak
 
     7.1) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak 
-        - создал Makefile.mak для проверки, как   работает nmake в windows
+    - создал Makefile.mak для проверки, как   работает nmake в windows
 
     7.2) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak run
     
     7.3) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak javadoc
+
+    7.4) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak help
+
+    7.5) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak clean
+
+    7.6) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak cleanjavadoc 
+
+    7.7) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak .PHONY
 
 8) Копируем содержимые контейнера с док файлами на локальный диск
 
