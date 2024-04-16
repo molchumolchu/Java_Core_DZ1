@@ -59,16 +59,16 @@
     7.2) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak run
     7.3) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak javadoc
 
-7) Копируем содержимые контейнера с док файлами на локальный диск
+8) Копируем содержимые контейнера с док файлами на локальный диск
 
     docker cp e4028aefdba4cd58692a50caa5cf6bf308b972432a565137dc95eebcd563f2a1:/usr/app/doc ./host_doc 
 
-8) Проверяем и запускаем в браузере index-all.html
+9) Проверяем и запускаем в браузере index-all.html
 
     file:///D:/Download/Chrome/Java%20Core%20DZ/04/host_doc/index-all.html
 
 
-9) В последней строке Dockerfile 
+10) В последней строке Dockerfile 
     CMD ["sh", "-c", "java -classpath /usr/app/out com.simple.Main && cat /usr/app/doc/index-all.html"]
     команда cat /usr/app/doc/index-all.html - выводит содержимое index-all.html документа в виде строк в консоль.
     Это сделано для наглядности.
