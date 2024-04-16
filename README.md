@@ -53,7 +53,11 @@
 
     6.5.1)  docker run farid555/java-core-dz:latest - проверяем как контейнер работает :)
 
-
+7) 
+    7.1) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak 
+        - создал Makefile.mak для проверки, как   работает nmake в windows
+    7.2) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak run
+    7.3) nmake /f D:\Download\Chrome\Java_Core_DZ\04\Makefile.mak javadoc
 
 7) Копируем содержимые контейнера с док файлами на локальный диск
 
